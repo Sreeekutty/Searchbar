@@ -44,4 +44,15 @@ input[type="text"]
   tr:nth-child(even) {
     background-color: #d1f5c0;
   } 
+a {
+    border: none;
+    border-radius: 8px; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    color: black; 
+    display: block; 
+  }
  
