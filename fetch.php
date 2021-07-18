@@ -12,12 +12,7 @@ if(isset($_POST["query"]))
 	$search = mysqli_real_escape_string($connect, $_POST["query"]);
 	$query = "
 	SELECT * FROM 30_nse_stocks_info 
-	WHERE Name LIKE '%".$search."%'
-	OR Current_Market_Price LIKE '%".$search."%' 
-	OR Market_Cap LIKE '%".$search."%' 
-	OR Stock LIKE '%".$search."%' 
-	OR Dividend_Yield LIKE '%".$search."%'
-	";
+	WHERE Name LIKE '%".$search."%'";
 }
 else
 {
