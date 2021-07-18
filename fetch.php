@@ -12,7 +12,7 @@ if(isset($_POST["query"]))
 	$search = mysqli_real_escape_string($connect, $_POST["query"]);
 	$query = "
 	SELECT * FROM 30_nse_stocks_info 
-	WHERE Name LIKE '%".$search."%'";
+	WHERE Name LIKE '".$search."%'";
 }
 else
 {
