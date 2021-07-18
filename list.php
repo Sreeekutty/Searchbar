@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./css/index.css"/>
+	<head>
+</head>
+	</html>
 <?php
 $connect = mysqli_connect("localhost", "root", "", "nsc_data");
 $output = '';
