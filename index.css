@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(180deg, rgb(248, 248, 248), rgb(197, 235, 238));
+}
+.paragraph_divison{
+    margin-left: 400px;
+    padding-top: 30px;
+}
+h2{
+    margin-left: 40px;
+}
+h1,p{
+    align-items: center;
+   margin-left: -400px;
+    text-align-last: center;
+}
+
+input[type="text"]
+{
+    
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 8px 8px 15px #d9dbd9;
+    border: none;
+}
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 430px;
+    border-style: hidden;
+   
+  }
+  
+  td, th {
+    border: 1px solid #d1eecb;
+    text-align: left;
+    padding: 8px;
+    border-style: hidden;
+    column-gap: 10px;
+  }
+  td{
+      color: maroon;
+  }
+  tr:nth-child(even) {
+    background-color: #d1f5c0;
+  } 
+ 
