@@ -28,7 +28,7 @@ if(mysqli_num_rows($result) > 0)
        
 		$output .= '
 		
-				<a href="#"  data-id='.$row["Name"].' onclick="return listData()"  >'.$row["Name"].'</a><br>
+				<a href="#"  data-id='.$row["Name"].' onclick="return listData()"  >'.$row["Name"].'</a>
 				
 			
 		';
